@@ -1,0 +1,60 @@
+1. ES6
+2. let vs var
+3. String interpolation : ${firstName}
+4. Arrow function : multilier/single liner  arguments list () => arrow function with 
+back tick to evalute 
+5. data hiding/ OOPS function(){
+function inner(){
+}}
+6. => arrow function : no function keyword
+7. this problem with nested object : => binding properly nested scenarion
+8. ES6:  array disctruring
+let  [firstRec] = ["Blr", "Del", "Mum"]
+    console.log(firstRec)
+9. Object distruring
+10. leteral enhanment
+ let name = "Nilgiris"
+    let elevation = 9738
+
+    let mtn = { name, elevation }
+    console.log(mtn)
+11. spread operator ...
+
+    fetch("https://api.randomuser.me/?nat=US&results=10")
+      .then(response => response.json())    // regitering into json
+      .then(members => console.log(members)) //chaning of call back
+      .catch(err => console.error(err))
+	  
+12.Inhewritance
+13. object destructring
+14. generation function: function *fun_name(){ yeild, .. : stiching with  ; stays in heap
+regular function:stack  this one heap
+15. import/export
+16 recat prefer self closing tag <MyClass/>
+this.props - built in   [ parent to child] shared  || immutable || publicly visiable (able to comunicate) || 
+17. component liufecycle  > die during routing
+18. lifecycle hook :componentWillUnmount
+19. importance of bind function this.handleClick = this.handleClick.bind(this) 
+20. setState() it will render once again state || mutable || setState() --> re dender  || only within you ||  private
+21. map
+22. delta changes, large dataset > then react JS
+23. no ajax in react  / use jquery, react is only view
+24. presentation component and container component 
+
+defaultProps propsType
+26. hoc
+27. hook : to hook stateobject in HOC
+const
+ const [counter, setCounter] = useState(4)  // setting the initial val to 4.
+ 28. Inbuilt object : getChildContext() || Head of family || bucket  ||context
+ 29. function delegation galaxy > solar system > planet || angular service ||
+ global context || dingleton
+ 30 producer /consumer/provider
+ 31. Router / Link  <Switch> <Route>
+ html : nav tag : 
+ 32 npm install react-router-dom
+ 33. state machine
+ unidirectional : view >action>reduce>store>view (view redux) 
+ npm install  axios  react-redux  redux  redux-logger  redux-saga
+ 
+ try-catch
